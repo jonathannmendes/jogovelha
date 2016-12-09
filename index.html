@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Jogo da Velha">
+		<meta name="keyword" content="aula, html5, css, javascript">
+		<meta name="author" content="Diego Marques | maxbassoul@gmail.com">
+		
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script type="text/javascript" src="js/gameLoop.js"></script>
+		
+		<title>Jogo da Velha</title>
+	</head>
+	<body>
+	
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="sobre.html">Dicas</a>
+			<a href="index.html">Game</a>
+		</nav>
+		
+		<div id ="tudo">
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOGADOR 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  JOGADOR X
+		<div class="placar">
+			<div class="j1" id="pJogador">
+				0</div>
+			<div class="jx">X</div>
+			<div class="j2" id="pComputador">0</div>
+		</div>
+		<div class="boxJogo">
+			<form name="gameLoop" class="qqrcoisa" method="post">
+				<input type="button" name="sqr1" class="jogo" onclick="rodada(this);">
+				<input type="button" name="sqr2" class="jogo" onclick="rodada(this);">
+				<input type="button" name="sqr3" class="jogo" onclick="rodada(this);">
+				<br>
+				<input type="button" name="sqr4" class="jogo" onclick="rodada(this);">
+				<input type="button" name="sqr5" class="jogo" onclick="rodada(this);">
+				<input type="button" name="sqr6" class="jogo" onclick="rodada(this);">
+				<br>
+				<input type="button" name="sqr7" class="jogo" onclick="rodada(this);">
+				<input type="button" name="sqr8" class="jogo" onclick="rodada(this);">
+				<input type="button" name="sqr9" class="jogo" onclick="rodada(this);">
+			</form>
+
+</div>
+					<center>Copyright Jonathan Mendes<center>
+						<center>jonathanbondes@gmail.com<center>
+		</div>
+		
+		<script type="text/javascript">
+			reset();
+		</script>
+	</body>
+</html>
